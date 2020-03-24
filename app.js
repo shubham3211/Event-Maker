@@ -11,7 +11,6 @@ app.use(cors())
 let events = {};
 
 app.get('/events', (req, res) => {
-  console.log('events :', events);
   res.send({
     events
   });
